@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import { findByTestAttr } from "../../test/testUtils";
+import { findByTestAttr } from '../../../test/testUtils'
 import Navbar from "./Navbar";
 
 const setup = () => {
