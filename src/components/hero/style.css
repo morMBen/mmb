@@ -1,0 +1,9 @@
+.meImgContainer{
+   width: 276px; 
+   height: 445px;
+   overflow: hidden;
+}
+.meImgContainer img{
+    max-width: 100%;
+    max-height: 100%;
+}
