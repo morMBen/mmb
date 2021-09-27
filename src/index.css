@@ -4,22 +4,25 @@
   font-family: 'Ubuntu',sans-serif;
 }
 body{
-  background: url(./assets/images/test-bg.png);
+  background: url(./assets/images/test-bg.jpg);
   background-repeat: repeat;
 }
 
 .primary-color{
-  color:aqua;
+  color:#fb8500;
 }
 .primaryBg-color{
-  background: blue;
+  background: #2176ae;
 }
 .text-color{
-  color:rgb(28, 19, 83);
+  color:#023047;
 }
 .grey{
-  color:dimgrey;
+  color:#495057;
 }
+/* .black{
+  color:#212529
+} */
 .font-10{
   font-size: 10px;
 }

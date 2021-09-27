@@ -13,7 +13,7 @@ export const Button = (props) => {
                 color: props.inverse ? colors.primaryColor : '#fff',
                 display: 'inline-block',
                 borderRadius: '20px',
-                boxShadow: props.inverse ? 'none' : 'green 0px 0px 10px 0px',
+                boxShadow: props.inverse ? 'none' : 'grey 0px 0px 10px 0px',
                 border: '1px solid',
                 borderColor: props.inverse ? colors.primaryColor : 'transparent',
                 fontSize: 12,

@@ -1,7 +1,9 @@
-import me from '../../assets/images/test-bg.png'
+import me from '../../assets/images/me.png'
 import { Button } from '../UI/Button';
 import './style.css';
 
+
+// I stoped on 41.49 
 const Hero = () => {
     return (
         <div className='container' style={{ marginTop: '70px' }}>
