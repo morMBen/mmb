@@ -1,4 +1,5 @@
-import Hero from './components/hero/index'
+import Hero from './components/hero'
+import Specializing from './components/Specializing';
 
 /**
  * @author {Mor Mordechai Ben}
@@ -9,6 +10,7 @@ const App = (props) => {
   return (
     <div>
       <Hero></Hero>
+      <Specializing />
     </div>
   )
 }
