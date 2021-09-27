@@ -97,6 +97,9 @@ body{
   margin: 0 auto;
   position: relative;
 }
+.wrap{
+flex-wrap: wrap;
+}
 a{
   text-decoration: none;
   color:#733234
