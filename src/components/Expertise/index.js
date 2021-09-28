@@ -40,7 +40,7 @@ const Expertise = (props) => {
                 </div>
                 <p className='grey mtb-10 font-14'>Java Script is way more then cool</p>
             </Card>
-
+            <div>Social media</div>
         </div>
     )
 }
