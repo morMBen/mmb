@@ -64,7 +64,10 @@ export const Specializing = (props) => {
                             textColor={skill.textColor}
                             pathColor={skill.pathColor}
                             trailColor='#D0D2D4'
-                            value={skill.value} />
+                            value={skill.value}
+                            height='80px'
+                            width='80px'
+                        />
                     })}
 
                 </div>

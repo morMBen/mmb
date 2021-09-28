@@ -1,4 +1,5 @@
-import Hero from './components/hero'
+import Expertise from './components/Expertise';
+import Hero from './components/Hero'
 import Specializing from './components/Specializing';
 
 /**
@@ -9,8 +10,9 @@ import Specializing from './components/Specializing';
 const App = (props) => {
   return (
     <div>
-      <Hero></Hero>
+      <Hero />
       <Specializing />
+      <Expertise />
     </div>
   )
 }

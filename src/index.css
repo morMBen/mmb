@@ -5,7 +5,7 @@
 }
 body{
   background: url(./assets/images/test-bg.jpg);
-  background-repeat: repeat;
+  background-repeat:round;
 }
 
 .primary-color{
@@ -73,6 +73,9 @@ body{
 }
 .mlr-10{
   margin: 0 10px;
+}
+.m-auto{
+  margin:0 auto;
 }
 .ptb-10{
   padding:10px 0;

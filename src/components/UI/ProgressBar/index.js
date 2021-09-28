@@ -3,12 +3,12 @@ import 'react-circular-progressbar/dist/styles.css';
 import RadialSeparators from './RadialSeparators';
 import './style.css'
 
-const ProgressBar = ({ textColor, pathColor, trailColor, value, skillName, description }) => {
+const ProgressBar = ({ textColor, pathColor, trailColor, value, skillName, description, width, height }) => {
 
 
     return (
         <div className='flex-row align-center mtb-10' style={{ width: '50%' }}>
-            <div className='skill-container'>
+            <div className='skill-container' style={{ width: width, height: height }}>
                 <CircularProgressbarWithChildren
                     value={value}
                     text={`${value}%`}
