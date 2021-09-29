@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+// Stoped at 1:31:32
 const SocialNetwork = () => {
     return (
         <div>
