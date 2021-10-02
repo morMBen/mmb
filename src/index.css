@@ -5,7 +5,10 @@
 }
 body{
   background: url(./assets/images/test-bg.jpg);
-  background-repeat:round;
+  /* background-repeat:round; */
+  background-size:cover;
+  /* background-position: center; */
+  /* background- */
 }
 
 .primary-color{
