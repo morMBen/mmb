@@ -1,0 +1,8 @@
+.project-img-container{
+    width: 500px;
+    overflow: hidden;
+    margin: 50px;
+}
+.project-img-container img{
+    max-width: 100%;
+}

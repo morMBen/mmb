@@ -1,5 +1,6 @@
 import Expertise from './components/Expertise';
 import Hero from './components/Hero'
+import MyProjects from './components/MyProjects';
 import Specializing from './components/Specializing';
 
 /**
@@ -13,6 +14,7 @@ const App = (props) => {
       <Hero />
       <Specializing />
       <Expertise />
+      <MyProjects />
     </div>
   )
 }
