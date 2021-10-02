@@ -6,6 +6,7 @@ import ProgressBar from '../UI/ProgressBar';
 import { colors } from '../../style';
 import me2 from '../../assets/images/me2.png'
 import './style.css'
+import SocialNetwork from '../UI/SocialNetworks';
 
 
 const percentage = 70;
@@ -23,7 +24,7 @@ const Expertise = (props) => {
             </div>
             <Card
                 // className='m-auto'
-                style={{ margin: '100px auto', padding: '30px', width: '320px' }}
+                style={{ margin: '60px auto', padding: '30px', width: '320px' }}
             >
                 <div className='flex-row align-center'>
                     <ProgressBar
@@ -40,7 +41,7 @@ const Expertise = (props) => {
                 </div>
                 <p className='grey mtb-10 font-14'>Java Script is way more then cool</p>
             </Card>
-            <div>Social media</div>
+            <SocialNetwork />
         </div>
     )
 }

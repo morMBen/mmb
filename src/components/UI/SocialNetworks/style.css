@@ -1,0 +1,23 @@
+.social-connect{
+background: #2176ae;
+width: 300px;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius:5px 20px;
+
+}
+
+.social-connect .social-link{
+    border-radius: 5px;
+    padding: 0 2px;
+    margin:  0 5px;
+    color: #fff;
+    transition:transform .2s ease-out, box-shadow .2s ease-out;
+}
+
+.social-connect .social-link:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 #023047;
+}
