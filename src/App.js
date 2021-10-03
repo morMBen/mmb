@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import MyProjects from './components/MyProjects';
 import Specializing from './components/Specializing';
 import Recommendations from './components/Recommendations'
+import Footer from './components/Footer';
 
 /**
  * @author {Mor Mordechai Ben}
@@ -19,6 +20,7 @@ const App = (props) => {
       <MyProjects />
       <Education />
       <Recommendations />
+      <Footer />
     </div>
   )
 }

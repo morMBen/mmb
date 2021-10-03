@@ -1,0 +1,16 @@
+.converation-container{
+box-shadow:0 0 10px 0 #023047;
+width: fit-content;
+height: fit-content;
+padding: 7px;
+border-radius: 50px;
+color: #2176ae;
+}
+
+.footer-menu a{
+display: inline-block;
+margin:  10px ;
+text-transform: uppercase;
+color:#023047;
+font-size:14px ;
+}
