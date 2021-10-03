@@ -1,0 +1,22 @@
+.reco{
+    width: 160px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.reco img{
+max-width: 100%;
+/* object-fit: contain; */
+}
+
+.profile-img-container{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.profile-img-container img{
+    /* max-width: 100%; */
+    max-height: 100%;
+    /* object-fit: contain; */
+}
